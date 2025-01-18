@@ -1,0 +1,36 @@
+name: to_do_list
+description: "A new Flutter project."
+publish_to: 'none' # Ensures the project is not published to pub.dev.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependency for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Adjusted dependency version for state management
+  provider: ^6.1.2
+
+  # Dependency for saving tasks locally
+  shared_preferences: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linter for better coding practices
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Ensures Material Icons are included
+  uses-material-design: true
+
+  # Add assets here if needed in the future
+  # assets:
+  #   - images/sample_image.png
